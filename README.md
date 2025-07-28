@@ -15,7 +15,7 @@ The script uses a fine-tuned Whisper model (`vasista22/whisper-kannada-medium`) 
 
 
 # Model Used
-- **Model**: [`vasista22/whisper-kannada-small`](https://huggingface.co/vasista22/whisper-kannada-medium)
+- **Model**: [`vasista22/whisper-kannada-medium`](https://huggingface.co/vasista22/whisper-kannada-medium)
 - **Architecture**: Whisper
 - **Language**: Kannada (set using forced decoder prompts)
 
