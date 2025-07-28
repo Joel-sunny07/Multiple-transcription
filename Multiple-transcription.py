@@ -18,7 +18,7 @@ def transcribe_audio_files(folder_path, output_csv_path):
     # Initialize transcription pipeline
     transcribe = pipeline(
         task="automatic-speech-recognition", 
-        model="vasista22/whisper-kannada-small", 
+        model="vasista22/whisper-kannada-medium", 
         chunk_length_s=30, 
         device=device
     )
