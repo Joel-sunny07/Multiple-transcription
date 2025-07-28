@@ -3,7 +3,7 @@ This project provides a Python script to automatically transcribe multiple Kanna
 
 
 # Overview
-The script uses a fine-tuned Whisper model (`vasista22/whisper-kannada-small`) to batch-process `.wav` files from a given folder and output their transcriptions into a single CSV.
+The script uses a fine-tuned Whisper model (`vasista22/whisper-kannada-medium`) to batch-process `.wav` files from a given folder and output their transcriptions into a single CSV.
 
 
 # Features
@@ -15,7 +15,7 @@ The script uses a fine-tuned Whisper model (`vasista22/whisper-kannada-small`) t
 
 
 # Model Used
-- **Model**: [`vasista22/whisper-kannada-small`](https://huggingface.co/vasista22/whisper-kannada-small)
+- **Model**: [`vasista22/whisper-kannada-small`](https://huggingface.co/vasista22/whisper-kannada-medium)
 - **Architecture**: Whisper
 - **Language**: Kannada (set using forced decoder prompts)
 
